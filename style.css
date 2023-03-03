@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+} 
+
+
+body {
+    background-color: #222831;
+}
+nav { 
+background-color: #222831;
+height: 123px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 80px;
+
+ }
+
+ nav ul li {
+    display: inline-block;
+    margin: 0 12px;
+  }
+  
+  nav ul li a {
+   /* font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffff;*/
+    width: 86px;
+height: 27px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #EEEEEE;
+
+  }
+
+  .logo {
+ width: 209px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #EEEEEE;
+  }
+.image-one {
+position: absolute;
+width: 557px;
+height: 649.65px;
+left: 930px;
+top: 295px;
+right: 20px;
+}
+
+
+h1 {
+    width: 586px;
+    height: Hug(192px);
+    font-family: 'Poppins';
+    font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 96px;
+color: #EEEEEE;
+
+}
+
+.first-one {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 586px;
+height: 287px;
+left: 185px;
+top: 340px;
+    
+} 
+
+.second-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 383px;
+    height: 97px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.h1-two {
+    width: 586px;
+height: 192px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 96px;
+color: #00ADB5;
+}
+
+.button-hire{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 32px;
+gap: 10px;
+
+width: 136px;
+    background: #00ADB5;
+border-radius: 24px;
+color: #EEEEEE
+
+}
+.button-download {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+color: #EEEEEE;
+width: 223px;
+height: 47px;
+background: rgba(57, 62, 70, 0.75);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.div-one {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 1024px;
+    justify-content: space-between;
+}
+
+.image-two {
+    margin-bottom: 210px;
+    margin-left: 70px;
+}
