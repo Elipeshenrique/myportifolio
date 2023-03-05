@@ -228,16 +228,88 @@ top: 720px;
 background: rgba(57, 62, 70, 0.75);
 backdrop-filter: blur(4px);
 }
-.about {
+.container {
     position: relative;
 max-width: 1600px;
 height: 1024px;
 background-color: #00ADB5;
 margin-bottom: none;
-margin-right: solid 5px red;
-margin-top:solid 5px red;
-}
+display: flex;
+
+ }
 
 .about-one {
-    margin-right: solid 2px red;
+    background-color:  #222831;
+    margin-left: 2px solid rgba(238, 238, 238, 0.1);
+    width: 798px;
+    height: 1024px;
+}
+
+.about-two {
+    background-color:#222831;
+    width: 800px;
+    height: 1024px;
+}
+
+.title {
+ background-color: #322424;
+ position: absolute;
+width: 422px;
+height: 100px;
+left: 96px;
+top: 256px;
+display: flex;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 96px;;
+color: #EEEEEE;
+}
+
+.title-1 {
+font-size: 70px;
+background-color: white;
+}
+
+.title-2 {
+    color: #00ADB5;
+}
+
+.content {
+    position: absolute;
+width: 400px;
+height: 189px;
+left: 96px;
+top: 352px;
+background-color: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: rgba(238, 238, 238, 0.75);
+
+}
+
+button {
+    color: #EEEEEE;
+ margin: none;
+ font-size: 17px;
+ background-color: #222831;
+ border: none;
+}
+
+button:active,
+button:hover {
+    background: none;
+  color:#00ADB5;
+  cursor: pointer;
+}
+
+.content button {
+ padding-left: 280px;
+position: absolute;
+margin-bottom: 50px;
 }
