@@ -62,7 +62,7 @@ position: relative;
 position: absolute;
 width: 557px;
 height: 649.65px;
-left: 930px;
+left: 830px;
 top: 180px;
 right: 300px;
 }
@@ -217,6 +217,7 @@ left: -712px;
 top: 0px;
 border: 2px solid rgba(238, 238, 238, 0.1);
 transform: rotate(90deg);
+border-right: none;
  }
 
    
@@ -232,7 +233,7 @@ backdrop-filter: blur(4px);
     position: relative;
 max-width: 1600px;
 height: 1024px;
-background-color: #00ADB5;
+background-color: #222831;
 margin-bottom: none;
 display: flex;
 
@@ -241,7 +242,7 @@ display: flex;
 .about-one {
     background-color:  #222831;
     margin-left: 2px solid rgba(238, 238, 238, 0.1);
-    width: 798px;
+    width: 800px;
     height: 1024px;
 }
 
@@ -330,3 +331,31 @@ top: -130.14px;
 
 transform: rotate(14.82deg);
 }
+
+.vector-about {
+    position: absolute;
+    width: 112.72px;
+height: 169.89px;
+left: 330px;
+top: 230px;
+
+
+}
+.component-1 {
+    position: relative;
+width: 503px;
+height: 593px;
+top: -300px;
+left: 700px;
+}
+
+.hr-3 {
+    position: absolute;
+    width: 1600px;
+    height: 0px;
+    left: 0px;
+    top: 540px;
+    border: 1px solid rgba(238, 238, 238, 0.1);
+     }
+
+    
